@@ -1,4 +1,4 @@
-# Knopf Auf! 2022 | Klang Workshop
+# *Knopf Auf!* 2022 | Klang Workshop
 Die Klänge auf dieser Webseite sind während eines Workshops über Klang und Musik mit Kindern und Erwachsenenen (vorallem mit Kindern) im Rahmen des Projekts *Knopf auf!* entstanden. Der Workshop hat vom 21. bis zum 23. September 2022 im Jungendhaus K3 Villingen-Schwenningen stattgefunden.
 
 Die Workshop-Teilnehmer haben über zwei Vormittage verschiedene Klänge in der Umgebung des Jungendhauses aufgenommen. Am dritten Vormittag wurden die gesamelten Klänge über diese Webseite in kollektiven Improvisationen mit mobilen Geräten verarbeitet.
