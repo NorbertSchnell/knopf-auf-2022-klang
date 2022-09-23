@@ -25,43 +25,43 @@
     "sounds": [
       {
         "name": "Leises Heulen",
-        "filename": "sounds/Klangumgebung/Heulen_leise.wav",
+        "filename": "sounds/misc/Heulen_leise.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Lautes Heulen",
-        "filename": "sounds/Klangumgebung/Heulen_laut.wav",
+        "filename": "sounds/misc/Heulen_laut.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Zischen",
-        "filename": "sounds/Klangumgebung/zischen.wav",
+        "filename": "sounds/misc/zischen.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Krach",
-        "filename": "sounds/Klangumgebung/krach_lautlangsam.wav",
+        "filename": "sounds/misc/krach_lautlangsam.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Viel Krach",
-        "filename": "sounds/Klangumgebung/krach_lautschnell.wav",
+        "filename": "sounds/misc/krach_lautschnell.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Blätterrascheln",
-        "filename": "sounds/Klangumgebung/rauschen_laut.wav",
+        "filename": "sounds/misc/rauschen_laut.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Gitter",
-        "filename": "sounds/Klangumgebung/Ratata_lang.wav",
+        "filename": "sounds/misc/Ratata_lang.wav",
         "loop": true,
         "level": 0
       }
@@ -77,43 +77,43 @@
     "sounds": [
       {
         "name": "Lang",
-        "filename": "sounds/Klangumgebung/dong1.wav",
+        "filename": "sounds/misc/dong1.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Lang",
-        "filename": "sounds/Klangumgebung/dong2.wav",
+        "filename": "sounds/misc/dong2.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Kürzer",
-        "filename": "sounds/Klangumgebung/dong_latemute1.wav",
+        "filename": "sounds/misc/dong_latemute1.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Noch Kürzer",
-        "filename": "sounds/Klangumgebung/dong_latemute2.wav",
+        "filename": "sounds/misc/dong_latemute2.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Kurz",
-        "filename": "sounds/Klangumgebung/dong_mute1.wav",
+        "filename": "sounds/misc/dong_mute1.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Ganz Kurz",
-        "filename": "sounds/Klangumgebung/dong_mute2.wav",
+        "filename": "sounds/misc/dong_mute2.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Ganz Kurz",
-        "filename": "sounds/Klangumgebung/dong_mute3.wav",
+        "filename": "sounds/misc/dong_mute3.wav",
         "loop": false,
         "level": 0
       }
@@ -125,43 +125,43 @@
     "sounds": [
       {
         "name": "A. ratscht",
-        "filename": "sounds/Klangumgebung/Ratata_kurz_au.wav",
+        "filename": "sounds/misc/Ratata_kurz_au.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "F. ratscht",
-        "filename": "sounds/Klangumgebung/Ratata_kurz_fa.wav",
+        "filename": "sounds/misc/Ratata_kurz_fa.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "L. ratscht",
-        "filename": "sounds/Klangumgebung/Ratata_kurz_lo.wav",
+        "filename": "sounds/misc/Ratata_kurz_lo.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "M. ratscht",
-        "filename": "sounds/Klangumgebung/Ratata_kurz_ma.wav",
+        "filename": "sounds/misc/Ratata_kurz_ma.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "M. ratscht",
-        "filename": "sounds/Klangumgebung/Ratata_kurz_mi.wav",
+        "filename": "sounds/misc/Ratata_kurz_mi.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "N. ratscht",
-        "filename": "sounds/Klangumgebung/Ratata_kurz_no.wav",
+        "filename": "sounds/misc/Ratata_kurz_no.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "R. ratscht",
-        "filename": "sounds/Klangumgebung/Ratata_kurz_ro.wav",
+        "filename": "sounds/misc/Ratata_kurz_ro.wav",
         "loop": false,
         "level": 0
       }
@@ -173,43 +173,43 @@
     "sounds": [
       {
         "name": "A",
-        "filename": "sounds/Klangumgebung/1_4_a.wav",
+        "filename": "sounds/misc/1_4_a.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "B",
-        "filename": "sounds/Klangumgebung/2_4_bae.wav",
+        "filename": "sounds/misc/2_4_bae.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "I",
-        "filename": "sounds/Klangumgebung/1_3_i.wav",
+        "filename": "sounds/misc/1_3_i.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "O",
-        "filename": "sounds/Klangumgebung/1_2_o.wav",
+        "filename": "sounds/misc/1_2_o.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "S",
-        "filename": "sounds/Klangumgebung/1_5_sss.wav",
+        "filename": "sounds/misc/1_5_sss.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "T",
-        "filename": "sounds/Klangumgebung/1_7_t.wav",
+        "filename": "sounds/misc/1_7_t.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "U",
-        "filename": "sounds/Klangumgebung/1_6_u.wav",
+        "filename": "sounds/misc/1_6_u.wav",
         "loop": false,
         "level": 0
       }
@@ -221,43 +221,43 @@
     "sounds": [
       {
         "name": "Lachen",
-        "filename": "sounds/Klangumgebung/2_1_lachen.wav",
+        "filename": "sounds/misc/2_1_lachen.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Klatschen",
-        "filename": "sounds/Klangumgebung/2_3_applauslangsam.wav",
+        "filename": "sounds/misc/2_3_applauslangsam.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Applaus",
-        "filename": "sounds/Klangumgebung/2_2_applaus.wav",
+        "filename": "sounds/misc/2_2_applaus.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Ah!",
-        "filename": "sounds/Klangumgebung/1_1_la.wav",
+        "filename": "sounds/misc/1_1_la.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Hallo!",
-        "filename": "sounds/Klangumgebung/2_5_hallo.wav",
+        "filename": "sounds/misc/2_5_hallo.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Hallóo!",
-        "filename": "sounds/Klangumgebung/2_6_hallolangsam.wav",
+        "filename": "sounds/misc/2_6_hallolangsam.wav",
         "loop": false,
         "level": 0
       },
       {
         "name": "Tschüss!",
-        "filename": "sounds/Klangumgebung/2_7_tschuess.wav",
+        "filename": "sounds/misc/2_7_tschuess.wav",
         "loop": false,
         "level": 0
       }
@@ -269,43 +269,43 @@
     "sounds": [
       {
         "name": "Brumm",
-        "filename": "sounds/Klangumgebung/4_1_brumm.wav",
+        "filename": "sounds/misc/4_1_brumm.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Niiiu",
-        "filename": "sounds/Klangumgebung/4_2_niiiu.wav",
+        "filename": "sounds/misc/4_2_niiiu.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Tut",
-        "filename": "sounds/Klangumgebung/4_3_tut.wav",
+        "filename": "sounds/misc/4_3_tut.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Tut Tut",
-        "filename": "sounds/Klangumgebung/4_4_tuttut.wav",
+        "filename": "sounds/misc/4_4_tuttut.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Wiu Wiu",
-        "filename": "sounds/Klangumgebung/4_5_wiuwiu.wav",
+        "filename": "sounds/misc/4_5_wiuwiu.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Kies",
-        "filename": "sounds/Klangumgebung/4_6_kies.wav",
+        "filename": "sounds/misc/4_6_kies.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Maschine",
-        "filename": "sounds/Klangumgebung/4_7_maschine.wav",
+        "filename": "sounds/misc/4_7_maschine.wav",
         "loop": true,
         "level": 0
       }
@@ -365,31 +365,31 @@
     "sounds": [
       {
         "name": "Arab Style",
-        "filename": "sounds/Beats/ArabStyleBeat.wav",
+        "filename": "sounds/beats/ArabStyleBeat.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Cranky",
-        "filename": "sounds/Beats/CrankyBeat.wav",
+        "filename": "sounds/beats/CrankyBeat.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Gong Gong Tech",
-        "filename": "sounds/Beats/GongGongTechBeat.wav",
+        "filename": "sounds/beats/GongGongTechBeat.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Lonesome Rider",
-        "filename": "sounds/Beats/LonesomeRiderBeat.wav",
+        "filename": "sounds/beats/LonesomeRiderBeat.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "MC Hammer",
-        "filename": "sounds/Beats/MCHammerBeat.wav",
+        "filename": "sounds/beats/MCHammerBeat.wav",
         "loop": true,
         "level": 0
       }
@@ -401,31 +401,31 @@
     "sounds": [
       {
         "name": "Melody Bass",
-        "filename": "sounds/Beats/Melody1Bass.wav",
+        "filename": "sounds/beats/Melody1Bass.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Melody Bass",
-        "filename": "sounds/Beats/Melody2Bass.wav",
+        "filename": "sounds/beats/Melody2Bass.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Drowner Melody",
-        "filename": "sounds/Beats/Melody1Melody.wav",
+        "filename": "sounds/beats/Melody1Melody.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Melody Melody",
-        "filename": "sounds/Beats/Melody2Melody.wav",
+        "filename": "sounds/beats/Melody2Melody.wav",
         "loop": true,
         "level": 0
       },
       {
         "name": "Melody Melody",
-        "filename": "sounds/Beats/Melody3Melody.wav",
+        "filename": "sounds/beats/Melody3Melody.wav",
         "loop": true,
         "level": 0
       }
