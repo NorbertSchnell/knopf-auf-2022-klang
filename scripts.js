@@ -428,7 +428,7 @@ function endPointer() {
   }
 }
 
-let sliderValue = 0.5;
+let sliderValue = 0;
 let sliderStartX = 0;
 let sliderStartValue = 0;
 let sliderScale = 0;
@@ -491,17 +491,20 @@ function initEffect(params = defaultEffectParams[effect]) {
       lowpass = audioContext.createBiquadFilter();
       lowpass.connect(audioContext.destination);
       lowpass.type = 'lowpass';
-      lowpass.frequency.value = minCutoffFreq * Math.exp(logCutoffRatio * 0.5);
       lowpass.Q.value = 0;
-
       audioOutput = lowpass
+
+      sliderValue = 0.75;
+      setEffect(0.75);
       break;
     }
 
     case 'resampling': {
-      resamplingFactor = 0;
       maxCentResampling = params.maxCent || defaultEffectParams.maxCent;
       autoResetResampling = params.autoReset || defaultEffectParams.autoReset;
+
+      sliderValue = 0.5;
+      setEffect(0.5);
       break;
     }
 
@@ -511,20 +514,20 @@ function initEffect(params = defaultEffectParams[effect]) {
 }
 
 function setEffect(value) {
-  sliderDisplay.style.width = `${100 * sliderValue}%`;
+  sliderDisplay.style.width = `${100 * value}%`;
 
   switch (effect) {
     case 'lowpass':
-      lowpass.frequency.value = minCutoffFreq * Math.exp(logCutoffRatio * sliderValue);
+      lowpass.frequency.value = minCutoffFreq * Math.exp(logCutoffRatio * value);
       break;
 
     case 'resampling':
       resamplingFactor = 0;
 
-      if (sliderValue > 0.6) {
-        resamplingFactor = Math.min(1, 2.5 * (sliderValue - 0.6));
-      } else if (sliderValue < 0.4) {
-        resamplingFactor = Math.max(-1, 2.5 * sliderValue - 1);
+      if (value > 0.6) {
+        resamplingFactor = Math.min(1, 2.5 * (value - 0.6));
+      } else if (value < 0.4) {
+        resamplingFactor = Math.max(-1, 2.5 * value - 1);
       }
 
       if (currentSoundIndex !== null) {
