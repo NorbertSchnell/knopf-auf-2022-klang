@@ -202,43 +202,43 @@
       {
         "name": "Lachen",
         "filename": "sounds/Klangumgebung/2_1_lachen.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Klatschen",
         "filename": "sounds/Klangumgebung/2_3_applauslangsam.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Applaus",
         "filename": "sounds/Klangumgebung/2_2_applaus.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Bä",
         "filename": "sounds/Klangumgebung/2_4_bae.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Hallo",
         "filename": "sounds/Klangumgebung/2_6_hallolangsam.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Viel Hallo",
         "filename": "sounds/Klangumgebung/2_5_hallo.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Tschüss",
         "filename": "sounds/Klangumgebung/2_7_tschuess.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       }
     ]
@@ -250,43 +250,43 @@
       {
         "name": "Brumm",
         "filename": "sounds/Klangumgebung/4_1_brumm.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Niiiu",
         "filename": "sounds/Klangumgebung/4_2_niiiu.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Tut",
         "filename": "sounds/Klangumgebung/4_3_tut.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Tut Tut",
         "filename": "sounds/Klangumgebung/4_4_tuttut.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Wiu Wiu",
         "filename": "sounds/Klangumgebung/4_5_wiuwiu.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Kies",
         "filename": "sounds/Klangumgebung/4_6_kies.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       },
       {
         "name": "Maschine",
         "filename": "sounds/Klangumgebung/4_7_maschine.wav",
-        "loop": false,
+        "loop": true,
         "level": 0
       }
     ]
