@@ -62,7 +62,7 @@
         "level": 0
       },
       {
-        "name": "Lang",
+        "name": "Auch Lang",
         "filename": "sounds/misc/dong2.wav",
         "loop": false,
         "level": 0
@@ -87,13 +87,13 @@
       },
       {
         "name": "Ganz Kurz",
-        "filename": "sounds/misc/dong_mute2.wav",
+        "filename": "sounds/misc/dong_mute3.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "Ganz Kurz",
-        "filename": "sounds/misc/dong_mute3.wav",
+        "name": "Noch Kürzer",
+        "filename": "sounds/misc/dong_mute2.wav",
         "loop": false,
         "level": 0
       }
