@@ -4,7 +4,7 @@ Die Klänge auf dieser Webseite sind zwischen dem 21. und 23. September während
 Die Kinder und Erwachsenen haben über zwei Vormittage verschiedene Klänge in der Umgebung des Jungendhauses aufgenommen.
 Am dritten Vormittag wurden die gesammelten Klänge über diese Webseite in kollektiven Improvisationen mit mobilen Geräten verarbeitet.
 
-##Credits
+## Credits
 
 Betreut haben den Workshop Daniel Leguy-Madzar, Florian Röhrl und Norbert Schnell.
 
