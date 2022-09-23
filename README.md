@@ -1,11 +1,13 @@
-# Knopf Auf! 2022 Klang Workshop
-Die Klänge auf dieser Webseite sind während eines Workshops über Klang und Musik mit Kindern und Erwachsenenen (vorallem mit Kindern) im Rahmen des Projekts *Knopf auf!* entstanden. Der Workshop hat vom 21. bis zum 23. September 2022 im Jungendhaus K3 Villingen-Schwenningen stattgefunden.
+# *Knopf Auf!* 2022 | Klang Workshop
+Die Klänge auf dieser Webseite sind zwischen dem 21. und 23. September während eines Workshops im Jungendhaus *K3* in Villingen-Schwenningen im Rahmen des Projekts *Knopf Auf!* entstanden.
 
-Die Workshop-Teilnehmer haben über zwei Vormittage verschiedene Klänge in der Umgebung des Jungendhauses aufgenommen. Am dritten Vormittag wurden die gesamelten Klänge über diese Webseite in kollektiven Improvisationen mit mobilen Geräten verarbeitet.
+Die Kinder und Erwachsenen haben über zwei Vormittage verschiedene Klänge in der Umgebung des Jungendhauses aufgenommen.
+Am dritten Vormittag wurden die gesammelten Klänge über diese Webseite in kollektiven Improvisationen mit mobilen Geräten verarbeitet.
 
-Klangmaterialien, die einzelne Kinderstimmen und Namen enthalten wurden in dieser öffentlichen Version der Webseite weggelassen.
+## Credits
 
-Betreuuer des Workshops waren Daniel Leguy-Madzar, Florian Röhrl und Norbert Schnell.
-Danke auch an Olaf Junkmann und Lukas Grafe sowie das gesamte Knopf-Auf!-Team und das Jugendhaus K3.
+Betreut haben den Workshop Daniel Leguy-Madzar, Florian Röhrl und Norbert Schnell.
+
+Vielen Dank auch an Olaf Jungmann und Lukas Grafe sowie das gesamte *Knopf-Auf!*-Team, das Jugendhaus *K3* und die Fakultät Digitale Medien der Hochschule Furtwangen.
 
 [https://norbertschnell.github.io/knopf-auf-2022-klang](https://norbertschnell.github.io/knopf-auf-2022-klang)
