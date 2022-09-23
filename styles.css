@@ -4,10 +4,9 @@ body {
   width: 100%;
   height: 100%;
   min-height: 100%;
-  margin: 0;
+  margin: auto;
+  padding: 0;
   background-color: black;
-  font-family: sans-serif;
-  padding: 1vh 10vw;
 }
 
 * {
@@ -17,6 +16,17 @@ body {
   -webkit-user-select: none;
 }
 
+#title {
+  height: 7vh;
+  width: 100%;
+  color: white;
+  font-size: 4vh;
+  font-weight: bold;
+  line-height: 7vh;
+  text-align: center;
+  margin: 2vh 0 1vh 0;
+}
+
 #button-container {
   position: relative;
   box-sizing: border-box;
@@ -24,11 +34,11 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-}
+  padding: 0 10vw 14vh 10vw;
+  margin: auto;}
 
 #button-container.menu {
   overflow: scroll;
-  pointer-events: none;
 }
 
 #button-container.player {
@@ -36,20 +46,11 @@ body {
   pointer-events: auto;
 }
 
-.title {
-  height: 7vh;
-  width: 100%;
-  color: #ccc;
-  font-size: 4vh;
-  line-height: 7vh;
-  text-align: center;
-}
-
 .button {
   position: relative;
   height: 9vh;
   width: 100%;
-  margin: 0;
+  margin: auto;
   border-radius: 50px;
   border-style: solid;
   border-width: 0.5vh;
@@ -63,10 +64,6 @@ body {
 .button.menu {
   background-color: turquoise;
   opacity: 0.75;
-  height: 7vh;
-  font-size: 3vh;
-  line-height: 6.5vh;
-  pointer-events: auto;
 }
 
 .button.menu:active {
@@ -101,9 +98,10 @@ body {
 #slider {
   position: absolute;
   left: 5vw;
-  bottom: 5vh;
+  bottom: 3vh;
   width: 90vw;
   height: 2vh;
+  margin: auto;
   border-style: solid;
   border-width: 1px;
   border-color: white;
@@ -124,4 +122,88 @@ body {
   background-color: orange;
   border-radius: 5px;
   pointer-events: none;
+}
+
+#info-button {
+  position: absolute;
+  right: 2vh;
+  top: 2vh;
+  width: 5vh;
+  height: 5vh;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  color: white;
+  font-size: 5vh;
+  line-height: 4vh;
+  text-align: center;
+  pointer-events: auto;
+}
+
+#info-overlay {
+  position: absolute;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  background-color: black;
+  padding: 1vh 10vw;
+  display: none;
+  color: white;
+  z-index: 2;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+#info-overlay.show {
+  display: block;
+  pointer-events: auto;
+}
+
+#info-overlay>h1 {
+  font-size: 1.5em;
+  margin-block-end: 0;
+}
+
+#info-overlay>h1.subtitle {
+  font-size: 1.2em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#info-overlay>h2 {
+  font-size: 1.2em;
+  margin-block-end: 0;
+}
+
+#info-overlay>p {
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
+#info-overlay>ol {
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
+#info-overlay>ol>li {
+  margin-top: 0.3em;
+  line-height: 1.25em;
+}
+
+#info-overlay.show::after {
+  position: fixed;
+  right: 2vh;
+  top: 2vh;
+  width: 5vh;
+  height: 5vh;
+  content: "⨉";
+  color: white;
+  font-size: 5vh;
+  line-height: 4vh;
+  text-align: center;
+  background-color: black;
 }

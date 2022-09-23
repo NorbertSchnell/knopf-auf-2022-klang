@@ -1,5 +1,25 @@
 [
   {
+    "name": "aaa",
+    "effect": "lowpass",
+    "sounds": []
+  },
+  {
+    "name": "aaa",
+    "effect": "lowpass",
+    "sounds": []
+  },
+  {
+    "name": "aaa",
+    "effect": "lowpass",
+    "sounds": []
+  },
+  {
+    "name": "aaa",
+    "effect": "lowpass",
+    "sounds": []
+  },
+  {
     "name": "Geräusche",
     "effect": "lowpass",
     "sounds": [
@@ -34,7 +54,7 @@
         "level": 0
       },
       {
-        "name": "Blätter",
+        "name": "Blätterrascheln",
         "filename": "sounds/Klangumgebung/rauschen_laut.wav",
         "loop": true,
         "level": 0
@@ -48,7 +68,7 @@
     ]
   },
   {
-    "name": "Dong",
+    "name": "Feuerschale",
     "effect": "resampling",
     "params": {
       "maxCent": 2400,
@@ -56,44 +76,44 @@
     },
     "sounds": [
       {
-        "name": "Resonant",
+        "name": "Lang",
         "filename": "sounds/Klangumgebung/dong1.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "Resonant",
+        "name": "Lang",
         "filename": "sounds/Klangumgebung/dong2.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "Gedämpft",
-        "filename": "sounds/Klangumgebung/dong_mute1.wav",
-        "loop": false,
-        "level": 0
-      },
-      {
-        "name": "Gedämpft",
-        "filename": "sounds/Klangumgebung/dong_mute2.wav",
-        "loop": false,
-        "level": 0
-      },
-      {
-        "name": "Gedämpft",
-        "filename": "sounds/Klangumgebung/dong_mute3.wav",
-        "loop": false,
-        "level": 0
-      },
-      {
-        "name": "Halb Gedämpft",
+        "name": "Kürzer",
         "filename": "sounds/Klangumgebung/dong_latemute1.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "Halb Gedämpft",
+        "name": "Noch Kürzer",
         "filename": "sounds/Klangumgebung/dong_latemute2.wav",
+        "loop": false,
+        "level": 0
+      },
+      {
+        "name": "Kurz",
+        "filename": "sounds/Klangumgebung/dong_mute1.wav",
+        "loop": false,
+        "level": 0
+      },
+      {
+        "name": "Ganz Kurz",
+        "filename": "sounds/Klangumgebung/dong_mute2.wav",
+        "loop": false,
+        "level": 0
+      },
+      {
+        "name": "Ganz Kurz",
+        "filename": "sounds/Klangumgebung/dong_mute3.wav",
         "loop": false,
         "level": 0
       }
@@ -104,43 +124,43 @@
     "effect": "resampling",
     "sounds": [
       {
-        "name": "A.",
+        "name": "A. ratscht",
         "filename": "sounds/Klangumgebung/Ratata_kurz_au.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "F.",
+        "name": "F. ratscht",
         "filename": "sounds/Klangumgebung/Ratata_kurz_fa.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "L.",
+        "name": "L. ratscht",
         "filename": "sounds/Klangumgebung/Ratata_kurz_lo.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "M.",
+        "name": "M. ratscht",
         "filename": "sounds/Klangumgebung/Ratata_kurz_ma.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "M.",
+        "name": "M. ratscht",
         "filename": "sounds/Klangumgebung/Ratata_kurz_mi.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "N.",
+        "name": "N. ratscht",
         "filename": "sounds/Klangumgebung/Ratata_kurz_no.wav",
         "loop": false,
         "level": 0
       },
       {
-        "name": "R.",
+        "name": "R. ratscht",
         "filename": "sounds/Klangumgebung/Ratata_kurz_ro.wav",
         "loop": false,
         "level": 0
@@ -152,99 +172,99 @@
     "effect": "resampling",
     "sounds": [
       {
-        "name": "La",
-        "filename": "sounds/Klangumgebung/1_1_la.wav",
-        "loop": true,
+        "name": "A",
+        "filename": "sounds/Klangumgebung/1_4_a.wav",
+        "loop": false,
         "level": 0
       },
       {
-        "name": "O",
-        "filename": "sounds/Klangumgebung/1_2_o.wav",
-        "loop": true,
+        "name": "B",
+        "filename": "sounds/Klangumgebung/2_4_bae.wav",
+        "loop": false,
         "level": 0
       },
       {
         "name": "I",
         "filename": "sounds/Klangumgebung/1_3_i.wav",
-        "loop": true,
+        "loop": false,
         "level": 0
       },
       {
-        "name": "A",
-        "filename": "sounds/Klangumgebung/1_4_a.wav",
-        "loop": true,
+        "name": "O",
+        "filename": "sounds/Klangumgebung/1_2_o.wav",
+        "loop": false,
         "level": 0
       },
       {
-        "name": "SSS",
+        "name": "S",
         "filename": "sounds/Klangumgebung/1_5_sss.wav",
-        "loop": true,
-        "level": 0
-      },
-      {
-        "name": "U",
-        "filename": "sounds/Klangumgebung/1_6_u.wav",
-        "loop": true,
+        "loop": false,
         "level": 0
       },
       {
         "name": "T",
         "filename": "sounds/Klangumgebung/1_7_t.wav",
-        "loop": true,
+        "loop": false,
+        "level": 0
+      },
+      {
+        "name": "U",
+        "filename": "sounds/Klangumgebung/1_6_u.wav",
+        "loop": false,
         "level": 0
       }
     ]
   },
   {
-    "name": "Zusammen",
+    "name": "Ausdrückliches",
     "effect": "resampling",
     "sounds": [
       {
         "name": "Lachen",
         "filename": "sounds/Klangumgebung/2_1_lachen.wav",
-        "loop": true,
+        "loop": false,
         "level": 0
       },
       {
         "name": "Klatschen",
         "filename": "sounds/Klangumgebung/2_3_applauslangsam.wav",
-        "loop": true,
+        "loop": false,
         "level": 0
       },
       {
         "name": "Applaus",
         "filename": "sounds/Klangumgebung/2_2_applaus.wav",
-        "loop": true,
+        "loop": false,
         "level": 0
       },
       {
-        "name": "Bä",
-        "filename": "sounds/Klangumgebung/2_4_bae.wav",
-        "loop": true,
+        "name": "Ah!",
+        "filename": "sounds/Klangumgebung/1_1_la.wav",
+        "loop": false,
         "level": 0
       },
       {
-        "name": "Hallo",
-        "filename": "sounds/Klangumgebung/2_6_hallolangsam.wav",
-        "loop": true,
-        "level": 0
-      },
-      {
-        "name": "Viel Hallo",
+        "name": "Hallo!",
         "filename": "sounds/Klangumgebung/2_5_hallo.wav",
-        "loop": true,
+        "loop": false,
         "level": 0
       },
       {
-        "name": "Tschüss",
+        "name": "Hallóo!",
+        "filename": "sounds/Klangumgebung/2_6_hallolangsam.wav",
+        "loop": false,
+        "level": 0
+      },
+      {
+        "name": "Tschüss!",
         "filename": "sounds/Klangumgebung/2_7_tschuess.wav",
-        "loop": true,
+        "loop": false,
         "level": 0
       }
     ]
   },
   {
-    "name": "In Bewegung",
+    "name": "Bewegliches",
     "effect": "resampling",
     "sounds": [
       {
@@ -340,7 +360,7 @@
     ]
   },
   {
-    "name": "Beats",
+    "name": "Rhythmen",
     "effect": "lowpass",
     "sounds": [
       {
@@ -376,7 +396,7 @@
     ]
   },
   {
-    "name": "Bass & Melody",
+    "name": "Bässe & Melodien",
     "effect": "lowpass",
     "sounds": [
       {

@@ -1,6 +1,9 @@
+const title = document.getElementById('title');
 const buttonContainer = document.getElementById('button-container');
 const slider = document.getElementById('slider');
 const sliderDisplay = document.getElementById('slider-display');
+const infoButton = document.getElementById('info-button');
+const infoOverlay = document.getElementById('info-overlay');
 const AudioContext = window.AudioContext || window.webkitAudioContext;
 let audioContext = null;
 
@@ -41,6 +44,14 @@ let analyser = null;
 let analyserArray = null;
 
 main();
+
+infoButton.addEventListener('click', (evt) => {
+  infoOverlay.classList.add('show');
+  evt.stopPropagation();
+
+}, false);
+
+infoOverlay.addEventListener('click', () => infoOverlay.classList.remove('show'));
 
 async function main() {
   const response = await fetch('./setup.json');
@@ -193,9 +204,10 @@ function makeButton(container, data, index, label, eventHandler) {
 }
 
 function makeMenu(menuList) {
-  slider.classList.add('hide');
-  buttonContainer.innerHTML = `<div class="title">Collections</div>`;
+  title.innerText = 'Sammlungen';
   buttonContainer.classList = 'menu';
+
+  slider.classList.add('hide');
 
   for (let i = 0; i < menuList.length; i++) {
     const button = makeButton(buttonContainer, 'item', i, menuList[i].name, onMenuButtonClick);
@@ -204,7 +216,7 @@ function makeMenu(menuList) {
 }
 
 function makePlayer(collection) {
-  buttonContainer.innerHTML = `<div class="title">${collection.name}</div>`;
+  title.innerText = collection.name;
   buttonContainer.classList = 'player';
 
   slider.classList.remove('hide'); // show slider
@@ -423,7 +435,7 @@ let sliderScale = 0;
 let slideWidth = 0;
 
 function startSlider(x) {
-  const slideRect = buttonContainer.getBoundingClientRect();
+  const slideRect = slider.getBoundingClientRect();
   slideWidth = slideRect.width;
   sliderStartX = x;
 
