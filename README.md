@@ -7,3 +7,5 @@ Klangmaterialien, die einzelne Kinderstimmen und Namen enthalten wurden in diese
 
 Betreuuer des Workshops waren Daniel Leguy-Madzar, Florian Röhrl und Norbert Schnell.
 Danke auch an Olaf Junkmann und Lukas Grafe sowie das gesamte Knopf-Auf!-Team und das Jugendhaus K3.
+
+[https://norbertschnell.github.io/knopf-auf-2022-klang](https://norbertschnell.github.io/knopf-auf-2022-klang)
