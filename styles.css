@@ -134,8 +134,9 @@ body {
   border-color: white;
   border-radius: 50%;
   color: white;
-  font-size: 5vh;
-  line-height: 4vh;
+  font-size: 4vh;
+  font-weight: bold;
+  line-height: 5vh;
   text-align: center;
   pointer-events: auto;
 }
